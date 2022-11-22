@@ -1,0 +1,32 @@
+{
+  "name": "orm-sequelize",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000o\u0000r\u0000m\u0000-\u0000s\u0000e\u0000q\u0000u\u0000e\u0000l\u0000i\u0000z\u0000e\u0000\r\u0000 \u0000",
+  "main": "/api/index.js",
+  "scripts": {
+    "start": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiago3011/orm-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiago3011/orm-sequelize/issues"
+  },
+  "homepage": "https://github.com/Thiago3011/orm-sequelize#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.25.8",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
